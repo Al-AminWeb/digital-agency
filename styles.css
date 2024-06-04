@@ -22,7 +22,6 @@
 .banner-container{
     height: 100vh;
     width: 100%;
-
     background-image: url("asset/image/background.jpg"),
     linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
     background-blend-mode: overlay;
@@ -31,4 +30,30 @@
     text-align: center;
     align-items: center;
     color: white;
+}
+.title-banner{
+    font-size:85px;
+    font-weight: bold;
+}
+.primary{
+    color: #e82626;
+}
+.description{
+    font-size: 22px;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+.btn{
+    padding: 15px 35px;
+    border: none;
+    margin: 5px;
+    font-size: 18px;
+}
+.btn-discover{
+    background-color: red;
+    color: white;
+}
+.btn-hire{
+    color: red;
 }
